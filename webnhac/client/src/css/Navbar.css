@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar .links a,
+  .navbar .auth-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar .links a:hover,
+  .navbar .auth-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar .search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+  }
+  
